@@ -22,29 +22,41 @@
 
 ```
 LLD-3/
-├── Controller/
-│   └── Api.java
-├── Model/Entity/
-│   ├── Billing.java
-│   └── Ticket.java
-├── Repository/
-│   ├── ParkingLotPlace.java (interface)
-│   ├── ParkingLotPlace_Impl.java
-│   ├── ParkingLotVehicle.java (interface)
-│   ├── ParkingLotVehicle_Impl.java
-│   ├── Tickets.java (interface)
-│   └── Tickets_Impl.java
-├── Service/
-│   ├── AdminService.java (interface)
-│   ├── ParkingService.java (interface)
-│   └── Implementations/
-│       ├── AdminServiceImpl.java
-│       └── ParkingServiceImpl.java
-├── View/
-│   └── Frontend.java
-├── util/
-│   └── idgenerator.java
-└── Main.java
+├── src/
+│   ├── Main.java
+│   │
+│   ├── Controller/
+│   │   └── Api.java
+│   │
+│   ├── Model/
+│   │   └── Entity/
+│   │       ├── Billing.java
+│   │       └── Ticket.java
+│   │
+│   ├── Repository/
+│   │   ├── ParkingLotPlace.java
+│   │   ├── ParkingLotVehicle.java
+│   │   ├── Tickets.java
+│   │   └── Implementations/
+│   │       ├── ParkingLotPlace_Impl.java
+│   │       ├── ParkingLotVehicle_Impl.java
+│   │       └── Tickets_Impl.java
+│   │
+│   ├── Service/
+│   │   ├── AdminService.java
+│   │   ├── ParkingService.java
+│   │   └── Implementations/
+│   │       ├── AdminServiceImpl.java
+│   │       └── ParkingServiceImpl.java
+│   │
+│   ├── View/
+│   │   └── Frontend.java
+│   │
+│   └── Util/
+│       └── IdGenerator.java
+│
+
+
 ```
 
 ---
